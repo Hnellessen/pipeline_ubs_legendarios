@@ -1,4 +1,10 @@
 # Dashboard de Unidades Básicas de Saúde (UBS)
+Integrantes:
+Henrique Magyarics Nellessen 10388168
+Nicole Previd 10409002
+Isabella Farabotti 10409153
+Gabriel Rezende Rangel 10331989
+Natan Carvalho 10401990
 
 Este projeto é um **dashboard interativo** desenvolvido com **Streamlit** para visualizar a frequência das **Unidades Básicas de Saúde (UBS)** por estado no Brasil.
 
