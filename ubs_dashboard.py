@@ -10,11 +10,11 @@ df_freq = df['Nome_UF'].value_counts().reset_index()
 df_freq.columns = ['Estado', 'Frequência']
 
 # Criar o dashboard
-st.title("Dashboard de Unidades Básicas de Saúde (UBS)")
+st.title("Dashboard de Unidades Básicas de Saúde")
 
 # Gráfico de barras
 grafico = px.bar(df_freq, x='Estado', y='Frequência', 
-                 title='Frequência de UBS por Estado', 
+                 title='Frequência de UBS', 
                  labels={'Estado': 'Estado', 'Frequência': 'Número de UBS'},
                  text_auto=True)
 
